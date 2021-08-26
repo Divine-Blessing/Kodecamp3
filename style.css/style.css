@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.paul{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.profile{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.firstsec{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.socialicons{
+    margin: 30px 0;
+}
+.socialicons .instagram{
+    padding: 0 20px;
+}
+.second{
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    gap: 10%;
+    justify-content: space-between;
+}
+.left{
+    width: 40%;
+}
+.right{
+    width: 60%;
+}
+.last{
+    text-align: center;
+}
+.hrr{
+    margin: 7% 0;
+}
